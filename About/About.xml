@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>BIRD UP! All-in-one</name>
+  <author>Alex J</author>
+  <url>www.kesstrl.com</url>
+  <packageId>Alex.BIRDUP.AllInOne</packageId>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <incompatibleWith>
+    <li>Alex.BIRDUP.Budgerigar</li>
+    <li>Alex.BIRDUP.Cockatiel</li>
+    <li>Alex.BIRDUP.Macaw</li>
+    <li>Alex.BIRDUP.Vulture</li>
+    <li>Alex.BIRDUP.Raven</li>
+    <li>Alex.BIRDUP.Peregrine</li>
+  </incompatibleWith>
+  <description>
+!!DO NOT USE IF YOU INSTALLED BIRD MODS SEPARATELY, might cause weird stuff!!
+A modpack adding all the birds from BIRD UP! collection. Good for people with huge amount of mods.
+
+The mod is still in development, so new species are currently being added. Right now the bundle contains:
+
+Cockatiels
+Budgies
+Macaws
+Vultures
+Ravens
+Peregrine falcons
+	</description>
+</ModMetaData>
