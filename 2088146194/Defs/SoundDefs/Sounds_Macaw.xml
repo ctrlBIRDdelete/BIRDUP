@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	<SoundDef>
+		<defName>Baby_Macaw</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxVoices>2</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Baby_Macaw</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>25</min>
+					<max>25</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8541176</min>
+					<max>9.37647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+				<repeatMode>NeverTwice</repeatMode>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Pawn_Macaw_Angry</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn_Macaw_Angry</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>1.1311765</min>
+					<max>1.291765</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Pawn_Macaw_Call</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn_Macaw_Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>20</min>
+					<max>25</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7311764</min>
+					<max>1.768824</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>120</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+		<SoundDef>
+		<defName>Pawn_Macaw_Death</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn_Macaw_Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>20</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>1.2311764</min>
+					<max>1.368824</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

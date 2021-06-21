@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggVultureUnfertilized</defName>
+    <label>vulture egg (unfert.)</label>
+    <description>Unfertilized Vulture egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(228,185,135)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggVultureFertilized</defName>
+    <label>vulture egg (fert.)</label>
+    <description>Fertilized vulture egg. You can it it, but should you?</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10.5</hatcherDaystoHatch>
+        <hatcherPawn>Vulture</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
