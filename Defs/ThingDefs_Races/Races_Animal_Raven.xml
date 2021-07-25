@@ -7,7 +7,7 @@
     <statBases>
       <MoveSpeed>3.1</MoveSpeed>
       <MarketValue>50</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <LeatherAmount>20</LeatherAmount>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <ComfyTemperatureMax>30</ComfyTemperatureMax>
     </statBases>
@@ -62,8 +62,9 @@
         <TemperateSwamp>0.8</TemperateSwamp>
       </wildBiomes>
       <body>Bird</body>
+	  <leatherDef>Leather_Bird</leatherDef>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>0.3</baseBodySize>
+      <baseBodySize>0.15</baseBodySize>
       <baseHealthScale>0.45</baseHealthScale>
       <predator>false</predator>
       <foodType>OmnivoreRoughAnimal</foodType>
